@@ -1,0 +1,66 @@
+plugins {
+	id 'net.fabricmc.fabric-loom-remap' version "${loom_version}"
+}
+
+repositories.matching { it.url?.toString()?.contains('maven.fabricmc.net') }.all {
+	it.setUrl('https://fabricmc.forgecdn.net/')
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+	archivesName = project.archives_base_name
+}
+
+repositories {
+	mavenLocal()
+	maven {
+		name = 'FabricMirror'
+		url = 'https://fabricmc.forgecdn.net/'
+	}
+	mavenCentral()
+}
+
+loom {
+	splitEnvironmentSourceSets()
+
+	mods {
+		"zdradialmenu" {
+			sourceSet sourceSets.client
+		}
+	}
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+}
+
+def modVersion = "1.0.0"
+
+processResources {
+	inputs.property "version", modVersion
+	filesMatching("fabric.mod.json") {
+		expand "version": modVersion
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 21
+}
+
+java {
+	withSourcesJar()
+	sourceCompatibility = JavaVersion.VERSION_21
+	targetCompatibility = JavaVersion.VERSION_21
+}
+
+jar {
+	from("LICENSE") {
+		rename { "${it}_${project.base.archivesName.get()}" }
+	}
+}

@@ -1,0 +1,12 @@
+pluginManagement {
+	repositories {
+		maven {
+			name = 'FabricMirror'
+			url = 'https://fabricmc.forgecdn.net/'
+		}
+		mavenCentral()
+		gradlePluginPortal()
+	}
+}
+
+rootProject.name = 'zdradialmenu'
