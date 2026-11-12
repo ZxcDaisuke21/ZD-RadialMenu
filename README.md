@@ -2,7 +2,7 @@
 
 A radial menu of commands and actions for Minecraft on Fabric. Opens with a hotkey of your choice, and is configured entirely in-game — no manual file editing required (though the config is a plain JSON file, so you can edit it by hand too).
 
-**Language / Язык:** [Русский](README_RU.md) · English
+**Language / Язык:** [Русский](README_RU.md) · [English](README.md)
 
 ## Features
 
