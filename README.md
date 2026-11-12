@@ -1,5 +1,7 @@
 # ZD Radial Menu
 
+The mod is still in the development stage! Some of what is listed below has not yet been implemented!
+
 A radial menu of commands and actions for Minecraft on Fabric. Opens with a hotkey of your choice, and is configured entirely in-game — no manual file editing required (though the config is a plain JSON file, so you can edit it by hand too).
 
 **Language / Язык:** English · [Русский](README_RU.md) 
