@@ -10,7 +10,7 @@ JSON file, so you can edit it by hand too).
 
 
 
-\*\*Language / Язык:\*\* \[Русский](README_RU.md) · English
+\*\Language / Язык:\*\ \[Русский](README_RU.md) · English
 
 
 
