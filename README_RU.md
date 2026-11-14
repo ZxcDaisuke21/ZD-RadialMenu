@@ -28,7 +28,7 @@
 1. Установите [Fabric Loader](https://fabricmc.net/use/installer/) для вашей версии Minecraft.
 2. Положите в папку `mods`:
    - [Fabric API](https://modrinth.com/mod/fabric-api) под вашу версию игры;
-   - `zdradialmenu-<версия>.jar` со [страницы релизов](https://github.com/ZxcDaisuke21/ZD-RadialMenu/releases/tag/v1.0.5-1.21.11f).
+   - `zdradialmenu-<версия>.jar` со [страницы релизов](https://github.com/ZxcDaisuke21/ZD-RadialMenu/releases).
 
 ## Использование
 
