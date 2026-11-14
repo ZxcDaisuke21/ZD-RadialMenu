@@ -28,7 +28,7 @@ A radial menu of commands and actions for Minecraft on Fabric. Opens with a hotk
 1. Install [Fabric Loader](https://fabricmc.net/use/installer/) for your Minecraft version.
 2. Put the following into your `mods` folder:
    - [Fabric API](https://modrinth.com/mod/fabric-api) matching your game version;
-   - `zdradialmenu-<version>.jar` from the [Releases](https://github.com/ZxcDaisuke21/ZD-RadialMenu/releases/tag/v1.0.5-1.21.11f) page
+   - `zdradialmenu-<version>.jar` from the [Releases](https://github.com/ZxcDaisuke21/ZD-RadialMenu/releases) page
 
 ## Usage
 
