@@ -4,6 +4,7 @@ A fully configurable radial menu for Minecraft (Fabric). A mod for adding a
 circular menu to Minecraft — commands, key presses and submenus, opened with
 a hotkey of your choice.
 
+**Language / Язык:** English · [Русский](README_RU.md)
 
 ## Features
 
