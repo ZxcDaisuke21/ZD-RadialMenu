@@ -32,6 +32,7 @@ a hotkey of your choice.
 - Three submenu display modes: overlay, ring, separate.
 - All editor UI buttons share one style: translucent dark fill with a white
   outline.
+- There is an editor for creating a custom form.
 - The config is saved automatically whenever an editor screen is closed.
 - Full localization: English and Russian (follows the game's language).
 
